@@ -1,0 +1,2333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+</head>
+
+<body>
+    <img src="assets/images/Fixed-Top1.gif" class="w-100 fixed-top" alt="">
+    <main class="mt-5">
+        <!-- Header -->
+        <header class="desktop container mx-auto">
+            <nav class="navbar" dir="rtl">
+                <div class="flex w-full">
+                    <div class="w-[70%] flex">
+                        <div class="w-50 mx-2">
+                            <img src="assets/images/Logo.svg" class="mt-2">
+                        </div>
+                        <div class="w-auto mx-10">
+                            <div class="pt-2 relative mx-auto text-gray-600">
+                                <input
+                                    class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none w-[60vh]"
+                                    type="search" name="search" placeholder="جستجو کنید ...">
+                                <button type="submit" class="absolute right-0 top-0 mt-5 mr-4">
+                                    <svg class="text-gray-600 h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px"
+                                        y="0px" viewBox="0 0 56.966 56.966"
+                                        style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"
+                                        width="512px" height="512px">
+                                        <path
+                                            d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[30%] mx-2 flex justify-end content-end">
+                        <div class="w-auto mx-2">
+                            <img src="assets/images/header1.svg" class="mt-5" alt="">
+                        </div>
+                        <div class="w-auto mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-question-circle mt-5" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                <path
+                                    d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94" />
+                            </svg>
+                        </div>
+                        <div class="w-auto mx-2 mt-4">
+                            <a href="" class="text-sm">ورود / ثبت نام</a>
+                        </div>
+                        <div class="w-auto mx-2 mt-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-cart" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="flex mt-5 container">
+                    <a href="" class="text-dark text-sm mx-4">کالای دیجیتال</a>
+                    <a href="" class="text-dark text-sm mx-4">خانه و آشپز خانه</a>
+                    <a href="" class="text-dark text-sm mx-4">خودرو و ابزار و باغبانی</a>
+                    <a href="" class="text-dark text-sm mx-4">فرهنگ و هنر</a>
+                    <a href="" class="text-dark text-sm mx-4">بهداشت شخصی و سلامت محیط</a>
+                    <a href="" class="text-dark text-sm mx-4">اسباب بازی</a>
+                    <a href="" class="text-dark text-sm mx-4">ورزش و کمپینگ</a>
+                    <a href="" class="text-dark text-sm mx-4">طلا - مد و پوشاک</a>
+                </div>
+            </nav>
+        </header>
+        <header class="mobile container mx-auto">
+            <div class="flex">
+                <div class="w-1/2 flex">
+                    <a href="" class="mx-3 mt-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
+                    </a>
+                    <a href="" class="mx-3 mt-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            class="bi bi-cart" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="w-1/2 flex" dir="rtl">
+                    <a class="mx-1" id="menubtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </a>
+                    <img src="assets/images/Logo.svg" class="mx-1" alt="">
+                </div>
+            </div>
+            <div class="w-full mt-">
+                <div class="pt-2 relative mx-auto text-gray-600">
+                    <input
+                        class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none w-[100%] container mx-auto"
+                        type="search" name="search" placeholder="جستجو کنید ...">
+                    <button type="submit" class="absolute right-0 top-0 mt-5 mr-4">
+                        <svg class="text-gray-600 h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
+                            viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;"
+                            xml:space="preserve" width="512px" height="512px">
+                            <path
+                                d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- Header -->
+        <br>
+        <hr class="bg-black text-black desktop">
+
+        <!-- Slider -->
+        <div class="swiper container mx-auto rounded-lg" id="swiper" pagination="true" pagination-clickable="true">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/images/Slider/Slider1 (1).jpg" class="h-100 w-100" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/images/Slider/Slider2 (1).jpg" class="h-100 w-100" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/images/Slider/Slider3 (1).jpg" class="h-100 w-100" alt="">
+                </div>
+            </div>
+            <!-- 
+                <div class="swiper-pagination"></div>
+            -->
+
+            <div class="swiper-button-prev">
+                <svg xmlns='http://www.w3.org/2000/svg' fill='#fff' width='8' height='8' viewBox='0 0 8 8'>
+                    <path d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z' />
+                </svg>
+            </div>
+            <div class="swiper-button-next">
+                <svg xmlns='http://www.w3.org/2000/svg' fill='#fff' width='8' height='8' viewBox='0 0 8 8'>
+                    <path d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z' />
+                </svg>
+            </div>
+        </div>
+        <!-- Slider -->
+
+        <!-- Category -->
+        <section class="container mx-auto mt-5 desktop">
+            <div class="flex">
+                <div class="w-auto m-2">
+                    <img src="assets/images/category/category1.jpg" class="rounded-md" alt="">
+                    <p class="text-center mt-2">
+                        لپ تاب
+                    </p>
+                </div>
+                <div class="w-auto m-2">
+                    <img src="assets/images/category/category1.jpg" class="rounded-md" alt="">
+                    <p class="text-center mt-2">
+                        لپ تاب
+                    </p>
+                </div>
+                <div class="w-auto m-2">
+                    <img src="assets/images/category/category1.jpg" class="rounded-md" alt="">
+                    <p class="text-center mt-2">
+                        لپ تاب
+                    </p>
+                </div>
+                <div class="w-auto m-2">
+                    <img src="assets/images/category/category1.jpg" class="rounded-md" alt="">
+                    <p class="text-center mt-2">
+                        لپ تاب
+                    </p>
+                </div>
+                <div class="w-auto m-2">
+                    <img src="assets/images/category/category1.jpg" class="rounded-md" alt="">
+                    <p class="text-center mt-2">
+                        لپ تاب
+                    </p>
+                </div>
+                <div class="w-auto m-2">
+                    <img src="assets/images/category/category3.gif" class="rounded-md" alt="">
+                </div>
+                <div class="w-auto m-2">
+                    <img src="assets/images/category/category2.gif" class="rounded-md" alt="">
+                </div>
+                <div class="w-auto m-2">
+                    <img src="assets/images/category/category1.jpg" class="rounded-md" alt="">
+                    <p class="text-center mt-2">
+                        لپ تاب
+                    </p>
+                </div>
+                <div class="w-auto m-2">
+                    <img src="assets/images/category/category1.jpg" class="rounded-md" alt="">
+                    <p class="text-center mt-2">
+                        لپ تاب
+                    </p>
+                </div>
+                <div class="w-auto m-2">
+                    <img src="assets/images/category/category1.jpg" class="rounded-md" alt="">
+                    <p class="text-center mt-2">
+                        لپ تاب
+                    </p>
+                </div>
+                <div class="w-auto m-2">
+                    <img src="assets/images/category/category1.jpg" class="rounded-md" alt="">
+                    <p class="text-center mt-2">
+                        لپ تاب
+                    </p>
+                </div>
+                <div class="w-auto m-2">
+                    <img src="assets/images/category/category1.jpg" class="rounded-md" alt="">
+                    <p class="text-center mt-2">
+                        لپ تاب
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mx-auto mobile">
+            <div class="flex mt-3">
+                <div class="w-1/2 mx-1 container">
+                    <img src="assets/images/category/category1.jpg" class="rounded-md container mx-auto" alt="">
+                    <p class="text-center mt-2">
+                        لپ تاب
+                    </p>
+                </div>
+
+                <div class="w-1/2 mx-1 container ">
+                    <img src="assets/images/category/category1.jpg" class="rounded-md container mx-auto" alt="">
+                    <p class="text-center mt-2">
+                        لپ تاب
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex mt-3">
+                <div class="w-1/2 mx-1 container">
+                    <img src="assets/images/category/category3.gif" class="rounded-md container mx-auto" alt="">
+                </div>
+
+                <div class="w-1/2 mx-1 container">
+                    <img src="assets/images/category/category2.gif" class="rounded-md container mx-auto" alt="">
+                </div>
+            </div>
+
+            <div class="flex mt-3">
+                <div class="w-1/2 mx-1 container">
+                    <img src="assets/images/category/category1.jpg" class="rounded-md container mx-auto" alt="">
+                    <p class="text-center mt-2">
+                        لپ تاب
+                    </p>
+                </div>
+
+                <div class="w-1/2 mx-1 container">
+                    <img src="assets/images/category/category1.jpg" class="rounded-md container mx-auto" alt="">
+                    <p class="text-center mt-2">
+                        لپ تاب
+                    </p>
+                </div>
+            </div>
+
+        </section>
+        <!-- Category -->
+
+        <!-- A-Category -->
+        <section class="container mx-auto mt-10 desktop">
+            <div class="flex mt-10">
+                <div class="w-1/2 mx-2">
+                    <img src="assets/images/A-Category/Item1.jpg" class="rounded-lg" alt="">
+                </div>
+                <div class="w-1/2 mx-2">
+                    <img src="assets/images/A-Category/Item2.jpg" class="rounded-lg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="mobile mt-10">
+            <img src="assets/images/A-Category/Item1.jpg" class="rounded-lg container w-[95%] mx-auto mt-2" alt="">
+            <img src="assets/images/A-Category/Item2.jpg" class="rounded-lg container w-[95%] mx-auto mt-2" alt="">
+        </section>
+        <!-- A-Category -->
+
+        <!-- Mobile -->
+        <div class="container mx-auto mt-10">
+            <div class="flex">
+                <div class="mx-1 w-1/2 mt-3" dir="ltr">
+                    <a href="" class="font-medium text-lg flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-arrow-left mx-1 mt-1" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                        </svg> مشاهده بیشتر
+                    </a>
+                </div>
+                <div class="mx-1 w-1/2" dir="rtl">
+                    <h1 class="text-3xl">
+                        موبایل
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile -->
+
+        <!-- Shoes -->
+        <section class="container mx-auto mt-10 desktop">
+            <div class="flex mt-10">
+                <div class="w-1/2 mx-2">
+                    <img src="assets/images/Shoes/shoes1.jpg" class="rounded-lg" alt="">
+                </div>
+                <div class="w-1/2 mx-2">
+                    <img src="assets/images/Shoes/shoes2.jpg" class="rounded-lg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="mobile mt-10">
+            <img src="assets/images/Shoes/shoes1.jpg" class="rounded-lg container w-[95%] mx-auto mt-2" alt="">
+            <img src="assets/images/Shoes/shoes2.jpg" class="rounded-lg container w-[95%] mx-auto mt-2" alt="">
+        </section>
+        <!-- Shoes -->
+
+        <!-- Laptop -->
+        <div class="container mx-auto mt-10">
+            <div class="flex">
+                <div class="mx-1 w-1/2 mt-3" dir="ltr">
+                    <a href="" class="font-medium text-lg flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-arrow-left mx-1 mt-1" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                        </svg> مشاهده بیشتر
+                    </a>
+                </div>
+                <div class="mx-1 w-1/2" dir="rtl">
+                    <h1 class="text-3xl">
+                        لپتاپ
+                    </h1>
+                </div>
+            </div>
+
+            <div class="swiper container" id="slider2" pagination="true" pagination-clickable="true" space-between="30"
+                slides-per-view="3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Laptop1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">لپ تاپ 15.6 اینچی ایسوس مدل TUF
+                                        Gaming F15 FX506LH-B</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Laptop1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">لپ تاپ 15.6 اینچی ایسوس مدل TUF
+                                        Gaming F15 FX506LH-B</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Laptop1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">لپ تاپ 15.6 اینچی ایسوس مدل TUF
+                                        Gaming F15 FX506LH-B</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Laptop1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">لپ تاپ 15.6 اینچی ایسوس مدل TUF
+                                        Gaming F15 FX506LH-B</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Laptop1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">لپ تاپ 15.6 اینچی ایسوس مدل TUF
+                                        Gaming F15 FX506LH-B</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Laptop1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">لپ تاپ 15.6 اینچی ایسوس مدل TUF
+                                        Gaming F15 FX506LH-B</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-left text-black" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                    </svg>
+                </div>
+                <div class="swiper-button-next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-right text-black" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <!-- Laptop -->
+        <br>
+        <br>
+        <!-- A-Laptop -->
+        <section class="container mx-auto mt-10 desktop">
+            <div class="flex mt-10">
+                <div class="w-[25%] mx-2">
+                    <img src="assets/images/A-Laptop/A-Laptop4.png" alt="" class="container mx-auto">
+                </div>
+                <div class="w-[25%] mx-2">
+                    <img src="assets/images/A-Laptop/A-Laptop3.png" alt="" class="container mx-auto">
+                </div>
+                <div class="w-[25%] mx-2">
+                    <img src="assets/images/A-Laptop/A-Laptop2.png" alt="" class="container mx-auto">
+                </div>
+                <div class="w-[25%] mx-2">
+                    <img src="assets/images/A-Laptop/A-Laptop1.png" alt="" class="container mx-auto">
+                </div>
+            </div>
+        </section>
+
+        <section class="container mx-auto mt-10 mobile">
+            <div class="mt-10">
+                <div class="w-[100%] mt-2 container mx-auto">
+                    <img src="assets/images/A-Laptop/A-Laptop4.png" class="container mx-auto w-[95%]" alt="">
+                </div>
+                <div class="w-[100%] mt-2">
+                    <img src="assets/images/A-Laptop/A-Laptop3.png" class="container mx-auto w-[95%]" alt="">
+                </div>
+                <div class="w-[100%] mt-2">
+                    <img src="assets/images/A-Laptop/A-Laptop2.png" class="container mx-auto w-[95%]" alt="">
+                </div>
+                <div class="w-[100%] mt-2">
+                    <img src="assets/images/A-Laptop/A-Laptop1.png" class="container mx-auto w-[95%]" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- A-Laptop -->
+
+        <br>
+        <br>
+
+        <!-- PC -->
+        <section class="container mx-auto desktop mt-10">
+            <div class="flex">
+                <div class="w-[80%] mx-1">
+                    <div class="swiper container mt-10" id="slider3" pagination="true" pagination-clickable="true"
+                        space-between="30" slides-per-view="3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="card">
+                                        <img src="assets/images/PC/pc2.jpg" class="container mx-auto" alt="...">
+                                        <div class="card-body">
+                                            <br>
+                                            <h5 class="text-center" style="font-size: 14px;">
+                                                هارد اکسترنال وسترن MY Passport</h5>
+                                            <p class="text-xl mt-5 text-center">
+                                                37,900,000 <span class="text-sm">
+                                                    تومان
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="card">
+                                        <img src="assets/images/PC/pc3.jpg" class="container mx-auto" alt="...">
+                                        <div class="card-body">
+                                            <br>
+                                            <h5 class="text-center" style="font-size: 14px;">
+                                                هارد اکسترنال وسترن MY Passport</h5>
+                                            <p class="text-xl mt-5 text-center">
+                                                37,900,000 <span class="text-sm">
+                                                    تومان
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="card">
+                                        <img src="assets/images/PC/pc2.jpg" class="container mx-auto" alt="...">
+                                        <div class="card-body">
+                                            <br>
+                                            <h5 class="text-center" style="font-size: 14px;">
+                                                هارد اکسترنال وسترن MY Passport</h5>
+                                            <p class="text-xl mt-5 text-center">
+                                                37,900,000 <span class="text-sm">
+                                                    تومان
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="card">
+                                        <img src="assets/images/PC/pc3.jpg" class="container mx-auto" alt="...">
+                                        <div class="card-body">
+                                            <br>
+                                            <h5 class="text-center" style="font-size: 14px;">
+                                                هارد اکسترنال وسترن MY Passport</h5>
+                                            <p class="text-xl mt-5 text-center">
+                                                37,900,000 <span class="text-sm">
+                                                    تومان
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="card">
+                                        <img src="assets/images/PC/pc2.jpg" class="container mx-auto" alt="...">
+                                        <div class="card-body">
+                                            <br>
+                                            <h5 class="text-center" style="font-size: 14px;">
+                                                هارد اکسترنال وسترن MY Passport</h5>
+                                            <p class="text-xl mt-5 text-center">
+                                                37,900,000 <span class="text-sm">
+                                                    تومان
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="card">
+                                        <img src="assets/images/PC/pc3.jpg" class="container mx-auto" alt="...">
+                                        <div class="card-body">
+                                            <br>
+                                            <h5 class="text-center" style="font-size: 14px;">
+                                                هارد اکسترنال وسترن MY Passport</h5>
+                                            <p class="text-xl mt-5 text-center">
+                                                37,900,000 <span class="text-sm">
+                                                    تومان
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-left text-black" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                            </svg>
+                        </div>
+                        <div class="swiper-button-next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right text-black" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[20%] mx-1 rounded-lg h-[50vh]"
+                    style="background-image: url(assets/images/PC/pc1.png);background-size: cover;">
+                    <div class="container mx-auto">
+                        <p class="text-end mt-4 mr-4 text-white text-xl">
+                            کامپیوتر و لوازم جانبی
+                        </p>
+                        <a href="" dir="rtl" class="text-start mt-5 mr-4 flex text-white text-xl">
+                            بیشتر <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                class="bi bi-arrow-left-short mb-1" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container mx-auto mobile">
+            <div class="w-[95%] container mx-auto rounded-lg h-[70vh]"
+                style="background-image: url(assets/images/PC/pc1.png);background-size: cover;">
+                <div class="container mx-auto">
+                    <br>
+                    <p class="text-end mr-4 text-white text-xl">
+                        کامپیوتر و لوازم جانبی
+                    </p>
+                    <a href="" dir="rtl" class="text-start mt-5 mr-4 flex text-white text-xl">
+                        بیشتر <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                            class="bi bi-arrow-left-short mb-1" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-[95%] container mx-auto">
+                <div class="swiper container mt-10" id="slider3" pagination="true" pagination-clickable="true"
+                    space-between="30" slides-per-view="3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="container">
+                                <div class="card">
+                                    <img src="assets/images/PC/pc2.jpg" class="container mx-auto" alt="...">
+                                    <div class="card-body">
+                                        <br>
+                                        <h5 class="text-center" style="font-size: 14px;">
+                                            هارد اکسترنال وسترن MY Passport</h5>
+                                        <p class="text-xl mt-5 text-center">
+                                            37,900,000 <span class="text-sm">
+                                                تومان
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="container">
+                                <div class="card">
+                                    <img src="assets/images/PC/pc3.jpg" class="container mx-auto" alt="...">
+                                    <div class="card-body">
+                                        <br>
+                                        <h5 class="text-center" style="font-size: 14px;">
+                                            هارد اکسترنال وسترن MY Passport</h5>
+                                        <p class="text-xl mt-5 text-center">
+                                            37,900,000 <span class="text-sm">
+                                                تومان
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="container">
+                                <div class="card">
+                                    <img src="assets/images/PC/pc2.jpg" class="container mx-auto" alt="...">
+                                    <div class="card-body">
+                                        <br>
+                                        <h5 class="text-center" style="font-size: 14px;">
+                                            هارد اکسترنال وسترن MY Passport</h5>
+                                        <p class="text-xl mt-5 text-center">
+                                            37,900,000 <span class="text-sm">
+                                                تومان
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="container">
+                                <div class="card">
+                                    <img src="assets/images/PC/pc3.jpg" class="container mx-auto" alt="...">
+                                    <div class="card-body">
+                                        <br>
+                                        <h5 class="text-center" style="font-size: 14px;">
+                                            هارد اکسترنال وسترن MY Passport</h5>
+                                        <p class="text-xl mt-5 text-center">
+                                            37,900,000 <span class="text-sm">
+                                                تومان
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="container">
+                                <div class="card">
+                                    <img src="assets/images/PC/pc2.jpg" class="container mx-auto" alt="...">
+                                    <div class="card-body">
+                                        <br>
+                                        <h5 class="text-center" style="font-size: 14px;">
+                                            هارد اکسترنال وسترن MY Passport</h5>
+                                        <p class="text-xl mt-5 text-center">
+                                            37,900,000 <span class="text-sm">
+                                                تومان
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="container">
+                                <div class="card">
+                                    <img src="assets/images/PC/pc3.jpg" class="container mx-auto" alt="...">
+                                    <div class="card-body">
+                                        <br>
+                                        <h5 class="text-center" style="font-size: 14px;">
+                                            هارد اکسترنال وسترن MY Passport</h5>
+                                        <p class="text-xl mt-5 text-center">
+                                            37,900,000 <span class="text-sm">
+                                                تومان
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-left text-black" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button-next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right text-black" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- PC -->
+        <br>
+        <!-- TV -->
+        <section class="w-[95%] container mx-auto mt-10">
+            <div class="flex">
+                <div class="mx-1 w-1/2 mt-3" dir="ltr">
+                    <a href="" class="font-medium text-lg flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-arrow-left mx-1 mt-1" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                        </svg> مشاهده بیشتر
+                    </a>
+                </div>
+                <div class="mx-1 w-1/2" dir="rtl">
+                    <h1 class="text-3xl">
+                        تلویزیون
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <!-- TV -->
+        <br>
+        <!-- Car -->
+        <section class="w-[95%] container mx-auto mt-10">
+            <div class="flex">
+                <div class="w-[70%] mx-1 pr-2">
+                    <div class="flex h-[45%]">
+                        <img src="assets/images/Car/Car3.jpg" class="px-1 rounded-xl w-[60%]" alt="">
+                        <img src="assets/images/Car/Car2.jpg" class="px-1 rounded-xl w-[40%]" alt="">
+                    </div>
+                    <div class="flex h-[45%] mt-4">
+                        <img src="assets/images/Car/Car5.jpg" class="px-1 rounded-xl w-[40%]" alt="">
+                        <img src="assets/images/Car/Car4.jpg" class="px-1 rounded-xl w-[60%]" alt="">
+                    </div>
+                </div>
+                <div class="w-[30%] mx-1 pr-2 h-full">
+                    <img src="assets/images/Car/Car1.jpg" class="rounded-lg h-full" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Car -->
+        <br>
+        <!-- Game -->
+        <section class="w-[95%] container mx-auto mt-10">
+            <div class="flex">
+                <div class="mx-1 w-1/2 mt-3" dir="ltr">
+                    <a href="" class="font-medium text-lg flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-arrow-left mx-1 mt-1" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                        </svg> مشاهده بیشتر
+                    </a>
+                </div>
+                <div class="mx-1 w-1/2" dir="rtl">
+                    <h1 class="text-3xl">
+                        کنسول بازی
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <section class="w-[95%] container mx-auto mt-10">
+            <div class="swiper container mt-10" id="slider4" pagination="true" pagination-clickable="true"
+                space-between="30" slides-per-view="3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Game/game1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        کنسول بازی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Game/game2.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        کنسول بازی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Game/game3.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        کنسول بازی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Game/game4.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        کنسول بازی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Game/game1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        کنسول بازی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Game/game2.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        کنسول بازی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-left text-black" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                    </svg>
+                </div>
+                <div class="swiper-button-next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-right text-black" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <!-- Game -->
+        <br>
+        <div class="h-[1px] w-full" style="background-color:rgb(199, 194, 194) ;"></div>
+        <br>
+        <!-- Sun glasses -->
+        <section class="w-[95%] container mx-auto mt-10">
+            <div class="flex">
+                <div class="mx-1 w-1/2 mt-3" dir="ltr">
+                    <a href="" class="font-medium text-lg flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-arrow-left mx-1 mt-1" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                        </svg> مشاهده بیشتر
+                    </a>
+                </div>
+                <div class="mx-1 w-1/2" dir="rtl">
+                    <h1 class="text-3xl">
+                        عینک مردانه و زنانه
+                    </h1>
+                </div>
+            </div>
+
+            <div class="swiper container mt-10" id="slider4" pagination="true" pagination-clickable="true"
+                space-between="30" slides-per-view="3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Glasses/glasses1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        عینک آفتابی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Glasses/glasses2.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        عینک آفتابی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Glasses/glasses3.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        عینک آفتابی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Glasses/glasses1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        عینک آفتابی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Glasses/glasses2.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        عینک آفتابی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Glasses/glasses3.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        عینک آفتابی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-left text-black" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                    </svg>
+                </div>
+                <div class="swiper-button-next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-right text-black" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                </div>
+                <br>
+            </div>
+        </section>
+        <!-- Sun glasses -->
+        <br>
+        <div class="h-[1px] w-full" style="background-color:rgb(199, 194, 194) ;"></div>
+        <br>
+
+        <!-- Carpet -->
+        <section class="w-[95%] container mx-auto mt-10">
+            <div class="flex">
+                <div class="mx-1 w-1/2 mt-3" dir="ltr">
+                    <a href="" class="font-medium text-lg flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-arrow-left mx-1 mt-1" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                        </svg> مشاهده بیشتر
+                    </a>
+                </div>
+                <div class="mx-1 w-1/2" dir="rtl">
+                    <h1 class="text-3xl">
+                        فرش دستباف
+                    </h1>
+                </div>
+            </div>
+
+            <div class="swiper container mt-10" id="slider4" pagination="true" pagination-clickable="true"
+                space-between="30" slides-per-view="3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Carpet/carpet1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        فرش دستبافت
+                                    </h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Carpet/carpet1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        فرش دستبافت</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Carpet/carpet1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        فرش دستبافت</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Carpet/carpet1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        فرش دستبافت</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Carpet/carpet1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        فرش دستبافت</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Carpet/carpet1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        فرش دستبافت</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-left text-black" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                    </svg>
+                </div>
+                <div class="swiper-button-next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-right text-black" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                </div>
+                <br>
+            </div>
+
+        </section>
+        <!-- Carpet -->
+        <br>
+        <br>
+        <!-- Title -->
+        <img src="assets/images/Title/title1.jpg" class="rounded-lg container mx-auto" alt="">
+        <!-- Title-->
+        <br>
+        <br>
+
+        <!-- Tools -->
+        <section class="w-[95%] container mx-auto mt-10">
+            <div class="flex">
+                <div class="mx-1 w-1/2 mt-3" dir="ltr">
+                    <a href="" class="font-medium text-lg flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-arrow-left mx-1 mt-1" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                        </svg> مشاهده بیشتر
+                    </a>
+                </div>
+                <div class="mx-1 w-1/2" dir="rtl">
+                    <h1 class="text-3xl">
+                        ابزار دستی
+                    </h1>
+                </div>
+            </div>
+
+            <div class="swiper container mt-10" id="slider4" pagination="true" pagination-clickable="true"
+                space-between="30" slides-per-view="3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Tools/Tool1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        ابزار دستی
+                                    </h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Tools/Tool1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        ابزار دستی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Tools/Tool1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        ابزار دستی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Tools/Tool1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        ابزار دستی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Tools/Tool1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        ابزار دستی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Tools/Tool1.jpg" class="container mx-auto" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        ابزار دستی</h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-left text-black" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                    </svg>
+                </div>
+                <div class="swiper-button-next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-right text-black" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                </div>
+                <br>
+            </div>
+        </section>
+        <!-- Tools -->
+
+        <!-- Glass Types -->
+        <section class="container mx-auto w-[95%] mt-10 desktop">
+            <div class="flex">
+                <div class="w-[50%] m-4">
+                    <img src="assets/images/Glass-Types/Type2.png" alt="" class="container mx-auto">
+                </div>
+                <div class="w-[50%] m-4">
+                    <img src="assets/images/Glass-Types/Type1.png" alt="" class="container mx-auto">
+                </div>
+            </div>
+        </section>
+
+        <section class="container mx-auto w-[95%] mt-10 mobile">
+            <img src="assets/images/Glass-Types/Type2.png" alt="" class="container mx-auto">
+            <img src="assets/images/Glass-Types/Type1.png" alt="" class="container mx-auto mt-5">
+        </section>
+        <!-- Glass Types -->
+
+        <br>
+        <br>
+
+        <!-- Bed AD -->
+        <section class="container mx-auto w-[95%] mt-10">
+            <div class="w-[100%] container mx-auto">
+                <img src="assets/images/Bed-AD/item1.jpg" alt="" class="container mx-auto rounded-lg">
+            </div>
+        </section>
+        <!-- Bed AD -->
+
+        <!-- Bed -->
+        <section class="container mx-auto w-[95%] mt-10">
+            <div class="flex">
+                <div class="mx-1 w-1/2 mt-3" dir="ltr">
+                    <a href="" class="font-medium text-lg flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-arrow-left mx-1 mt-1" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                        </svg> مشاهده بیشتر
+                    </a>
+                </div>
+                <div class="mx-1 w-1/2" dir="rtl">
+                    <h1 class="text-3xl">
+                        سرویس خواب
+                    </h1>
+                </div>
+            </div>
+
+            <div class="swiper container mt-10" id="slider4" pagination="true" pagination-clickable="true"
+                space-between="30" slides-per-view="3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Bed/item1.jpg" class="container mx-auto w-[95%]" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+
+                                        سرویس خواب
+
+                                    </h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Bed/item2.jpg" class="container mx-auto w-[95%]" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        سرویس خواب
+                                    </h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Bed/item1.jpg" class="container mx-auto w-[95%]" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        سرویس خواب
+                                    </h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Bed/item2.jpg" class="container mx-auto w-[95%]" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        سرویس خواب
+                                    </h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Bed/item1.jpg" class="container mx-auto w-[95%]" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        سرویس خواب
+                                    </h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="card">
+                                <img src="assets/images/Bed/item2.jpg" class="container mx-auto w-[95%]" alt="...">
+                                <div class="card-body">
+                                    <br>
+                                    <h5 class="text-center" style="font-size: 14px;">
+                                        سرویس خواب
+                                    </h5>
+                                    <p class="text-xl mt-5 text-center">
+                                        37,900,000 <span class="text-sm">
+                                            تومان
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-left text-black" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                    </svg>
+                </div>
+                <div class="swiper-button-next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-right text-black" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                </div>
+                <br>
+            </div>
+        </section>
+        <!-- Bed -->
+
+        <br>
+        <div class="h-[1px] w-full" style="background-color:rgb(199, 194, 194) ;"></div>
+        <br>
+
+        <!-- Footer -->
+        <footer class="container mx-auto mt-10 desktop">
+            <div class="flex justify-center items-center mx-auto">
+                <div class="w-[25%]">
+                    <img src="assets/images/Footer-Support/item4.svg" alt="" class="mx-auto">
+                    <p class="text-center mt-2 text-lg font-bold">
+                        10 روز ضمانت کالا
+                    </p>
+                    <p class="text-center mt-1 text-sm text-gray-600">حتی سلیقه ای!</p>
+                </div>
+                <div class="w-[25%]">
+                    <img src="assets/images/Footer-Support/item3.svg" alt="" class="mx-auto">
+                    <p class="text-center mt-2 text-lg font-bold">
+                        10 روز ضمانت کالا
+                    </p>
+                    <p class="text-center mt-1 text-sm text-gray-600">حتی سلیقه ای!</p>
+                </div>
+                <div class="w-[25%]">
+                    <img src="assets/images/Footer-Support/item2.svg" alt="" class="mx-auto">
+                    <p class="text-center mt-2 text-lg font-bold">
+                        10 روز ضمانت کالا
+                    </p>
+                    <p class="text-center mt-1 text-sm text-gray-600">حتی سلیقه ای!</p>
+                </div>
+                <div class="w-[25%]" dir="rtl">
+                    <img src="assets/images/Footer-Support/item1.svg" alt="" class="mx-auto">
+                    <p class="text-center mt-2 text-lg font-bold">
+                        10 روز ضمانت کالا
+                    </p>
+                    <p class="text-center mt-1 text-sm text-gray-600">حتی سلیقه ای!</p>
+                </div>
+            </div>
+
+            <div class="flex mt-10" dir="rtl">
+                <div class="w-[25%] mx-2 text-start">
+                    ﺷﻤﺎره ﺗﻤﺎس:
+                    0937000000
+                </div>
+                <div class="w-[25%] mx-2 text-start">
+                    آدرس ایمیل : aliakbarnazemi2@gmail.com
+                </div>
+                <div class="w-[25%] mx-2 text-start flex">
+                    <p class="text-start">شبکه های مجازی :</p>
+                    <a href="" class="mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path fill="url(#paint0_linear)"
+                                d="M16.5 0h-9C3.358 0 0 3.358 0 7.5v9C0 20.642 3.358 24 7.5 24h9c4.142 0 7.5-3.358 7.5-7.5v-9C24 3.358 20.642 0 16.5 0zm5.25 16.5c0 2.895-2.355 5.25-5.25 5.25h-9c-2.895 0-5.25-2.355-5.25-5.25v-9c0-2.895 2.355-5.25 5.25-5.25h9c2.895 0 5.25 2.355 5.25 5.25v9z" />
+                            <path fill="url(#paint1_linear)"
+                                d="M12 6c-3.313 0-6 2.687-6 6s2.687 6 6 6 6-2.687 6-6-2.687-6-6-6zm0 9.75c-2.067 0-3.75-1.683-3.75-3.75 0-2.069 1.683-3.75 3.75-3.75s3.75 1.681 3.75 3.75c0 2.067-1.683 3.75-3.75 3.75z" />
+                            <path fill="url(#paint2_linear)"
+                                d="M18.45 6.35c.441 0 .8-.358.8-.8 0-.441-.359-.8-.8-.8-.442 0-.8.359-.8.8 0 .442.358.8.8.8z" />
+                            <defs>
+                                <linearGradient id="paint0_linear" x1="2.197" x2="21.803" y1="21.803" y2="2.197"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FFC107" />
+                                    <stop offset=".507" stop-color="#F44336" />
+                                    <stop offset=".99" stop-color="#9C27B0" />
+                                </linearGradient>
+                                <linearGradient id="paint1_linear" x1="7.757" x2="16.242" y1="16.242" y2="7.757"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FFC107" />
+                                    <stop offset=".507" stop-color="#F44336" />
+                                    <stop offset=".99" stop-color="#9C27B0" />
+                                </linearGradient>
+                                <linearGradient id="paint2_linear" x1="17.885" x2="19.015" y1="6.116" y2="4.985"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FFC107" />
+                                    <stop offset=".507" stop-color="#F44336" />
+                                    <stop offset=".99" stop-color="#9C27B0" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a href="" class="mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="grey" class="bi bi-twitter"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15" />
+                        </svg>
+                    </a>
+                    <a href="" class="mx-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="grey"
+                            class="bi bi-telegram" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+                        </svg></a>
+                    <a href="" class="mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="grey"
+                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="w-[25%] mx-2 text-start">
+
+                </div>
+            </div>
+            <div class="mt-10">
+                <div class="flex" dir="rtl">
+                    <div class="m-2 flex">
+                        <div class="m-2">
+                            <p class="text-start font-bold text-lg">
+                                دفترچه خریداران
+                            </p>
+                            <ul class="mt-5">
+                                <li class="mt-2">
+                                    <a href="" class="text-gray-500 text-sm">ثبت سفارش</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a href="" class="text-gray-500 text-sm">روش های پرداخت</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a href="" class="text-gray-500 text-sm">شرایط ارسال</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a href="" class="text-gray-500 text-sm">پیگیری سفارش</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a href="" class="text-gray-500 text-sm">ضمانت و بازگشت کالا</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="m-2 mx-20">
+                            <p class="text-start font-bold text-lg">
+                                دفترچه فروشندگان
+                            </p>
+                            <ul class="mt-5">
+                                <li class="mt-2">
+                                    <a href="" class="text-gray-500 text-sm">
+                                        راهنمای فروشندگان
+                                    </a>
+                                </li>
+                                <li class="mt-2">
+                                    <a href="" class="text-gray-500 text-sm">
+                                        میخواهم فروشنده شوم
+                                    </a>
+                                </li>
+                                <li class="mt-2">
+                                    <a href="" class="text-gray-500 text-sm">
+                                        قوانین و مقررات فروش در تیمچه
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="m-2 mx-20">
+                            <p class="text-start font-bold text-lg">
+                                دانستنی‌ها
+                            </p>
+                            <ul class="mt-5">
+                                <li class="mt-2">
+                                    <a href="" class="text-gray-500 text-sm">
+                                        حریم شخصی شما
+                                    </a>
+                                </li>
+                                <li class="mt-2">
+                                    <a href="" class="text-gray-500 text-sm">
+                                        قوانین و مقررات ما
+                                    </a>
+                                </li>
+                                <li class="mt-2">
+                                    <a href="" class="text-gray-500 text-sm">
+                                        فرصت های شغلی
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="m-2 mx-20">
+                            <p class="text-start font-bold text-lg">
+                                تیمچه!
+                            </p>
+                            <ul class="mt-5">
+                                <li class="mt-2">
+                                    <a href="" class="text-gray-500 text-sm">
+                                        درباره تیمچه
+                                    </a>
+                                </li>
+                                <li class="mt-2">
+                                    <a href="" class="text-gray-500 text-sm">
+                                        ارتباط با تیمچه
+                                    </a>
+                                </li>
+                                <li class="mt-2">
+                                    <a href="" class="text-gray-500 text-sm">
+                                        مزیت های تیمچه
+                                    </a>
+                                </li>
+                                <li class="mt-2">
+                                    <a href="" class="text-gray-500 text-sm">
+                                        داستان تیمچه
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-10">
+                <p class="text-end text-lg font-bold text-black">
+                    تیمچه، خرید آنلاین همه نوع کالا
+                </p>
+                <p class="text-end text-xs text-gray-500 mt-3">
+                    تیمچه، فروشگاهی اینترنتی با مدل بازارگاه یا «MarketPlace» است که با تنوع ده‌ها هزار کالا در دسته‌های
+                    متفاوت، خرید آنلاین همه‌چیز را برای همه در سراسر کشور امکان‌پذیر کرده است. لندو، اولین و بزرگ‌ترین
+                    استارتاپ ایرانی در حوزه خرید اقساطی،‌ فروشگاه اینترنتی تیمچه را راه‌اندازی کرده است. ضمانت اصل بودن
+                    کالا، ضمانت ده‌روزه بازگشت کالا، پشتیبانی در هفت روز هفته و امکان خرید اقساطی کالاها، مزایایی است که
+                    تیمچه برای خلق یک تجربه متفاوت از خرید آنلاین فراهم کرده است. در تیمچه سبدهایتان را با هرچیزی که در
+                    فکرش بودید، پر می‌کنیم. از موبایل و تلویزیون و دوربین گرفته تا ساز و ابزار و پوشیدنی و خوردنی!
+                </p>
+            </div>
+            <div class="mt-10">
+                <p class="text-center text-xs text-gray-500 mt-3">
+                    کلیه حقوق این سایت متعلق به شرکت نوین تجارت مجازی آریا (تیمچه) است -
+                    ©Copyrights Timcheh Co - 1399
+                </p>
+            </div>
+        </footer>
+
+        <footer class="container mx-auto mt-10 mobile">
+            <div class="swiper" id="slider4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/images/Footer-Support/item4.svg" alt="" class="mx-auto">
+                        <p class="text-center mt-2 text-lg font-bold">
+                            10 روز ضمانت کالا
+                        </p>
+                        <p class="text-center mt-1 text-sm text-gray-600">حتی سلیقه ای!</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/Footer-Support/item3.svg" alt="" class="mx-auto">
+                        <p class="text-center mt-2 text-lg font-bold">
+                            10 روز ضمانت کالا
+                        </p>
+                        <p class="text-center mt-1 text-sm text-gray-600">حتی سلیقه ای!</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/Footer-Support/item2.svg" alt="" class="mx-auto">
+                        <p class="text-center mt-2 text-lg font-bold">
+                            10 روز ضمانت کالا
+                        </p>
+                        <p class="text-center mt-1 text-sm text-gray-600">حتی سلیقه ای!</p>
+                    </div>
+                    <div class="swiper-slide" dir="rtl">
+                        <img src="assets/images/Footer-Support/item1.svg" alt="" class="mx-auto">
+                        <p class="text-center mt-2 text-lg font-bold">
+                            10 روز ضمانت کالا
+                        </p>
+                        <p class="text-center mt-1 text-sm text-gray-600">حتی سلیقه ای!</p>
+                    </div>
+                </div>
+                <div class="swiper-button-prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-left text-black" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                    </svg>
+                </div>
+                <div class="swiper-button-next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-right text-black" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                </div>
+            </div>
+            <br>
+            <div class="mt-10">
+                <div class="mt-10" dir="rtl">
+                    <div class=" mt-3 mx-2 text-center">
+                        ﺷﻤﺎره ﺗﻤﺎس:
+                        0937000000
+                    </div>
+                    <div class=" mt-3 mx-2 text-center">
+                        آدرس ایمیل : aliakbarnazemi2@gmail.com
+                    </div>
+                    <div class="mt-3 mx-2 text-center">
+                        <p class="text-center">شبکه های مجازی</p>
+                        <div class="flex mt-5 justify-center items-center">
+                            <a href="" class="mx-auto container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                    viewBox="0 0 24 24">
+                                    <path fill="url(#paint0_linear)"
+                                        d="M16.5 0h-9C3.358 0 0 3.358 0 7.5v9C0 20.642 3.358 24 7.5 24h9c4.142 0 7.5-3.358 7.5-7.5v-9C24 3.358 20.642 0 16.5 0zm5.25 16.5c0 2.895-2.355 5.25-5.25 5.25h-9c-2.895 0-5.25-2.355-5.25-5.25v-9c0-2.895 2.355-5.25 5.25-5.25h9c2.895 0 5.25 2.355 5.25 5.25v9z" />
+                                    <path fill="url(#paint1_linear)"
+                                        d="M12 6c-3.313 0-6 2.687-6 6s2.687 6 6 6 6-2.687 6-6-2.687-6-6-6zm0 9.75c-2.067 0-3.75-1.683-3.75-3.75 0-2.069 1.683-3.75 3.75-3.75s3.75 1.681 3.75 3.75c0 2.067-1.683 3.75-3.75 3.75z" />
+                                    <path fill="url(#paint2_linear)"
+                                        d="M18.45 6.35c.441 0 .8-.358.8-.8 0-.441-.359-.8-.8-.8-.442 0-.8.359-.8.8 0 .442.358.8.8.8z" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear" x1="2.197" x2="21.803" y1="21.803" y2="2.197"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FFC107" />
+                                            <stop offset=".507" stop-color="#F44336" />
+                                            <stop offset=".99" stop-color="#9C27B0" />
+                                        </linearGradient>
+                                        <linearGradient id="paint1_linear" x1="7.757" x2="16.242" y1="16.242" y2="7.757"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FFC107" />
+                                            <stop offset=".507" stop-color="#F44336" />
+                                            <stop offset=".99" stop-color="#9C27B0" />
+                                        </linearGradient>
+                                        <linearGradient id="paint2_linear" x1="17.885" x2="19.015" y1="6.116" y2="4.985"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#FFC107" />
+                                            <stop offset=".507" stop-color="#F44336" />
+                                            <stop offset=".99" stop-color="#9C27B0" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a href="" class="mx-auto container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="grey"
+                                    class="bi bi-twitter" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15" />
+                                </svg>
+                            </a>
+                            <a href="" class="mx-auto container"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" fill="grey" class="bi bi-telegram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+                                </svg></a>
+                            <a href="" class="mx-auto container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="grey"
+                                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="mt-10">
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    دفترچه خریداران
+                                </div>
+                                <div class="accordion-content">
+                                    <ul class="mt-2">
+                                        <li class="mt-2">
+                                            <a href="" class="text-gray-500 text-sm">ثبت سفارش</a>
+                                        </li>
+                                        <li class="mt-2">
+                                            <a href="" class="text-gray-500 text-sm">روش های پرداخت</a>
+                                        </li>
+                                        <li class="mt-2">
+                                            <a href="" class="text-gray-500 text-sm">شرایط ارسال</a>
+                                        </li>
+                                        <li class="mt-2">
+                                            <a href="" class="text-gray-500 text-sm">پیگیری سفارش</a>
+                                        </li>
+                                        <li class="mt-2">
+                                            <a href="" class="text-gray-500 text-sm">ضمانت و بازگشت کالا</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    دفترچه فروشندگان
+                                </div>
+                                <div class="accordion-content">
+                                    <ul class="mt-2">
+                                        <li class="mt-2">
+                                            <a href="" class="text-gray-500 text-sm text-start">
+                                                راهنمای فروشندگان
+                                            </a>
+                                        </li>
+                                        <li class="mt-2">
+                                            <a href="" class="text-gray-500 text-sm text-start">
+                                                میخواهم فروشنده شوم
+                                            </a>
+                                        </li>
+                                        <li class="mt-2">
+                                            <a href="" class="text-gray-500 text-sm text-start">
+                                                قوانین و مقررات فروش در تیمچه
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    دانستنی‌ها
+                                </div>
+                                <div class="accordion-content">
+                                    <ul class="mt-2">
+                                        <li class="mt-2">
+                                            <a href="" class="text-gray-500 text-sm">
+                                                حریم شخصی شما
+                                            </a>
+                                        </li>
+                                        <li class="mt-2">
+                                            <a href="" class="text-gray-500 text-sm">
+                                                قوانین و مقررات ما
+                                            </a>
+                                        </li>
+                                        <li class="mt-2">
+                                            <a href="" class="text-gray-500 text-sm">
+                                                فرصت های شغلی
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-header">
+                                    تیمچه!
+                                </div>
+                                <div class="accordion-content">
+                                    <ul class="mt-2">
+                                        <li class="mt-2">
+                                            <a href="" class="text-gray-500 text-sm">
+                                                درباره تیمچه
+                                            </a>
+                                        </li>
+                                        <li class="mt-2">
+                                            <a href="" class="text-gray-500 text-sm">
+                                                ارتباط با تیمچه
+                                            </a>
+                                        </li>
+                                        <li class="mt-2">
+                                            <a href="" class="text-gray-500 text-sm">
+                                                مزیت های تیمچه
+                                            </a>
+                                        </li>
+                                        <li class="mt-2">
+                                            <a href="" class="text-gray-500 text-sm">
+                                                داستان تیمچه
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-10 container mx-auto w-[90%]">
+                        <p class="text-start text-lg font-bold text-black">
+                            تیمچه، خرید آنلاین همه نوع کالا
+                        </p>
+                        <p class="text-start text-xs text-gray-500 mt-3">
+                            تیمچه، فروشگاهی اینترنتی با مدل بازارگاه یا «MarketPlace» است که با تنوع ده‌ها هزار کالا در
+                            دسته‌های
+                            متفاوت، خرید آنلاین همه‌چیز را برای همه در سراسر کشور امکان‌پذیر کرده است. لندو، اولین و
+                            بزرگ‌ترین
+                            استارتاپ ایرانی در حوزه خرید اقساطی،‌ فروشگاه اینترنتی تیمچه را راه‌اندازی کرده است. ضمانت
+                            اصل بودن
+                            کالا، ضمانت ده‌روزه بازگشت کالا، پشتیبانی در هفت روز هفته و امکان خرید اقساطی کالاها،
+                            مزایایی است که
+                            تیمچه برای خلق یک تجربه متفاوت از خرید آنلاین فراهم کرده است. در تیمچه سبدهایتان را با
+                            هرچیزی که در
+                            فکرش بودید، پر می‌کنیم. از موبایل و تلویزیون و دوربین گرفته تا ساز و ابزار و پوشیدنی و
+                            خوردنی!
+                        </p>
+                    </div>
+                    <div class="mt-10">
+                        <p class="text-center text-xs text-gray-500 mt-3">
+                            کلیه حقوق این سایت متعلق به شرکت نوین تجارت مجازی آریا (تیمچه) است -
+                            ©Copyrights Timcheh Co - 1399
+                        </p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer -->
+    </main>
+
+    <!-- Menu -->
+    <div class="menu" id="menu">
+        <ul class="menu-content shadow-lg">
+            <br>
+            <li class="text-start mx-2">
+                <a href="" class="text-black text-sm text-start mx-2">کالای دیجیتال</a>
+            </li>
+            <br>
+            <li class="text-start mx-2">
+                <a href="" class="text-black text-sm text-start mx-2">کالای دیجیتال</a>
+            </li>
+            <br>
+            <li class="text-start mx-2">
+                <a href="" class="text-black text-sm text-start mx-2">کالای دیجیتال</a>
+            </li>
+            <br>
+        </ul>
+    </div>
+    <!-- Menu -->
+
+
+    <script src="assets/js/swiper-bundle.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        const swiper = new Swiper('#swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+
+            autoplay: {
+                delay: 3000,
+            },
+        });
+
+        const swiper2 = new Swiper('#slider2', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            // Default parameters
+
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+                780: {
+                    slidesPerView: 3,
+                    spaceBetween: 2
+                },
+
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 0
+                }
+            }
+        });
+
+        const swiper3 = new Swiper('#slider3', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            // Default parameters
+
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+                780: {
+                    slidesPerView: 3,
+                    spaceBetween: 2
+                },
+
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 0
+                }
+            }
+        });
+
+        const swiper4 = new Swiper('#slider4', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            // Default parameters
+
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+                780: {
+                    slidesPerView: 3,
+                    spaceBetween: 2
+                },
+
+                1200: {
+                    slidesPerView: 5,
+                    spaceBetween: 0
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
